@@ -1,0 +1,10 @@
+Flask>=3.0
+flask-cors
+flask-jwt-extended>=4.6
+PyMySQL
+cryptography
+python-dotenv
+Werkzeug
+groq
+scikit-learn
+APScheduler

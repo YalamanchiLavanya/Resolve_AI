@@ -1,0 +1,40 @@
+# Secrets
+.env
+.env.example
+.env.*
+
+# Virtual environment (yours is named Agent)
+Agent/
+venv/
+.venv/
+env/
+
+# Libraries / dependencies
+Lib/
+Scripts/
+site-packages/
+node_modules/
+
+# Project scripts
+scripts/
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# User uploads (ticket attachments)
+uploads/*
+!uploads/.gitkeep
+
+# Logs and local databases
+*.log
+*.sqlite3
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
